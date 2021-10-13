@@ -21,7 +21,7 @@ function App() {
           </Route>
           <Route path="/review">
             <OrderReview></OrderReview>
-          </Route>git remote set-url
+          </Route>
           <Route path="/inventory">
             <Inventory></Inventory>
           </Route>
