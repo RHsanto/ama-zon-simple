@@ -1,0 +1,40 @@
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form{
+  border: 1px solid rgb(171, 171, 179);
+  padding: 50px 70px 50px 50px;
+  margin-top: 50px;
+  width: 20%;
+}
+label{
+  font-weight: 600;
+}
+
+.submit{
+  width: 105%;
+  padding: 8px 0px;
+  background-color: #F1C65A;
+  border: 0;
+  border-radius: 4px;
+  border: 1px solid #9C7E31;
+  cursor: pointer;
+}
+
+.google-button{
+  padding: 10px;
+  margin-left: 150px;
+  margin-top: 20px;
+  border: 2px solid rgb(10, 120, 245);
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+ cursor: pointer;
+}
+.google-button:hover{
+  background-color: rgb(10, 120, 245);
+  color: white;
+}

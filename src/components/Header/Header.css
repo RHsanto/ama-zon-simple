@@ -6,7 +6,7 @@
 }
 .header nav {
     background-color: black;
-    line-height: 40px;
+    line-height: 60px;
 }
 .header nav a{
     text-decoration: none;
@@ -17,4 +17,28 @@
 }
 .header nav a:hover{
     background-color: lightgray;
+}
+.login-img{
+width: 50px;
+border-radius: 50%;
+margin-bottom: -18px;
+
+}
+.logout{
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid crimson;
+    border-radius: 5px;
+}
+.logout:hover{
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+.user-name{
+    color: white;
+    font-weight: 600;
+    margin-right: 20px;
 }
